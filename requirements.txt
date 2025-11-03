@@ -1,0 +1,3 @@
+# Python requirements for OpenAI Realtime Voice Assistant
+websockets==12.0
+pyaudio==0.2.14

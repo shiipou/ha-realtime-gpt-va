@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Assistant Vocal OpenAI Realtime",
+        "description": "Configurer l'API OpenAI Realtime pour l'assistant vocal",
+        "data": {
+          "api_key": "Clé API OpenAI"
+        }
+      }
+    },
+    "error": {
+      "invalid_api_key": "Format de clé API invalide",
+      "cannot_connect": "Impossible de se connecter à OpenAI",
+      "unknown": "Erreur inconnue"
+    },
+    "abort": {
+      "already_configured": "Cette intégration est déjà configurée"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options OpenAI Realtime",
+        "description": "Configurer le comportement de l'assistant vocal",
+        "data": {
+          "model": "Modèle",
+          "voice": "Voix",
+          "instructions": "Instructions Système"
+        }
+      }
+    }
+  }
+}
